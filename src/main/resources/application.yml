@@ -1,0 +1,20 @@
+server:
+  port: 8081
+  error:
+    path: /error2
+
+spring:
+  application:
+    name: Bootstrap Spring Boot
+  thymeleaf:
+    cache: false
+    enabled: true
+    prefix: classpath:/templates/
+    suffix: .html
+
+security:
+  basic:
+    enabled: true
+  user:
+    name: john
+    password: 123
